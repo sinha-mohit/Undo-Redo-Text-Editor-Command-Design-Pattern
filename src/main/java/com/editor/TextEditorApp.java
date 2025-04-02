@@ -34,7 +34,7 @@ import com.editor.manager.CommandManager;
 
 public class TextEditorApp {
     public static void main(String[] args) {
-        TextEditor editor = new TextEditor();  // Cannot be accessed outside package
+        TextEditor editor = new TextEditor();  // Cannot be accessed outside package, main business logic but do not know any methods directly
         // editor.addText("5678hbvbnm") // cannot be accessed from outside the package as it has  no modifiers -> (No modifier) (default or package-private) → Accessible only within the same package.
         CommandManager commandManager = new CommandManager();
 
